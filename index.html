@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- js -->
+    <!-- CSS -->
+     <link rel="stylesheet" href="./style.css">
+    <!-- JS -->
     <script defer src="./main.js"></script>
-    
-    <title>Pre entrega 1</title>
+    <title>Pre entrega 2</title>
 </head>
-
 <body>
-<h1>PALACIOS, NICOLAS EDUARDO</h1>    
+    <h1>PALACIOS, NICOLAS EDUARDO</h1>
+    <divc class="equi">
+        <label for="equipo">Equipo:</label>
+        <select id="equipo">
+            <option value="River">River</option>
+            <option value="Boca">Boca</option>
+        </select>
+    </div>
+    <div class="cant">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1">
+    </div>
+    <button id="agregarVenta">Agregar Venta</button>
+    <button id="mostrarResultados">Mostrar Resultados</button>
+    <div id="mensajes"></div>
+    <div id="resultados"></div>
 </body>
-
 </html>
